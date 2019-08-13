@@ -16,6 +16,6 @@ public class TestEmailServiceImpl {
 	
 	@Test
 	public void test() {
-		emailServiceImpl.sendInvoice("YJianghong@gmail.com", "invoice", "you have a new order");
+		//emailServiceImpl.sendInvoice("YJianghong@gmail.com", "invoice", "you have a new order");
 	}
 }

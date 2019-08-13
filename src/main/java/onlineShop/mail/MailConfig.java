@@ -16,6 +16,8 @@ public class MailConfig {
 	    mailSender.setHost("smtp.gmail.com");
 	    mailSender.setPort(587);
 	     
+	    // I have an extra file (not tracked in Git) named MailCredentials to 
+	    // store these data; create your own and mess with it!
 	    mailSender.setUsername(MailCredentials.userName);
 	    mailSender.setPassword(MailCredentials.password);
 	     
